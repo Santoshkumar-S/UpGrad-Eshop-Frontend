@@ -90,7 +90,7 @@ function getStepContent(step) {
           <br/>
           <span className="add-address"><b>Add Address</b></span><br/><br/>
           <div >
-
+         
          <form className="container" noValidate>
           <Grid container spacing={2}>
           <Grid item xs={6}>
@@ -336,13 +336,13 @@ export default function CreateOrder() {
                   Skip
                 </Button>
               )}
-
+              
               <Button
                 variant="contained"
                 color="primary"
                 onClick={handleNext}
                 className={classes.button}
-
+                
               >
                 {activeStep === steps.length - 1 ? "PLACE ORDER" : "Next"}
               </Button>
